@@ -5,8 +5,8 @@
  */
 
 function addBinary(a, b) {
-    const angkaA = BigInt("0b"+a);
-    const angkaB = BigInt("0b"+b);
+    const angkaA = BigInt("0b" + a);
+    const angkaB = BigInt("0b" + b);
     const hasil = angkaA + angkaB;
     return hasil.toString(2);
 }
